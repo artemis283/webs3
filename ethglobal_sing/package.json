@@ -1,0 +1,17 @@
+{
+  "name": "ethglobal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dynamic-labs/ethereum": "^3.1.1",
+    "@dynamic-labs/sdk-react-core": "^3.1.1",
+    "viem": "^2.21.10"
+  }
+}
