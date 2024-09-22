@@ -1,0 +1,19 @@
+{
+    "contracts": {
+      "MintlyRewards": "./contracts/MintlyRewards.cdc"
+    },
+    "networks": {
+      "testnet": "access.testnet.nodes.onflow.org:9000"
+    },
+    "accounts": {
+      "testnet-account": {
+        "address": "0x7f68aedfa0aad77b",
+        "key": "c33f97e8617f0c1ca4b94f563239ba331fa220c786844f8240e946864a040d4a"
+      }
+    },
+    "deployments": {
+      "testnet": {
+        "testnet-account": ["MintlyRewards"]
+      }
+    }
+  }
